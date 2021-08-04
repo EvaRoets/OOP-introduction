@@ -15,6 +15,8 @@ class Beverages
     public function __construct(string $color, float $price, string $temperature = "cold")
     {
         $this->temperature = $temperature;
+        $this->color = $color;
+
 
     }
 
@@ -24,10 +26,6 @@ class Beverages
     }
 }
 
-$cola = new Beverages("black", 2, "");
-
-getInfo($cola);
-echo "$temperature";
 
 /* EXERCISE 1
 Create a class beverage.

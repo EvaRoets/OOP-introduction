@@ -6,6 +6,23 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
+class Beer extends Beverages
+{
+    public string $name;
+    public float $alcoholPercentage;
+
+    public function __construct(string $color, float $price, string $temperature = "cold", string $name, float $alcoholPercentage)
+    {
+        parent::__construct($color, $price, $temperature);
+    }
+
+    public function getAlcoholPercentage(float $alcoholPercentage)
+    {
+        return $alcoholPercentage;
+    }
+
+    $duvel = new Beverages("blond", 3.5, "");
+}
 
 /* EXERCISE 2
 Make class beer that extends from Beverage.
