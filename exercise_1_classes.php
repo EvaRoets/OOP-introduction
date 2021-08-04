@@ -15,14 +15,14 @@ class Beverages
     public function __construct(string $color, float $price, string $temperature = "cold")
     {
         $this->temperature = $temperature;
+        $this->price = $price;
         $this->color = $color;
-
 
     }
 
     public function getInfo()
     {
-        echo "This beverage is {$this->temperature} and {$this->color}.";
+        echo "This beverage is {$this->temperature} and {$this->color}. <br>";
     }
 }
 

@@ -2,6 +2,26 @@
 
 declare(strict_types=1);
 
+class Beer extends Beverages
+{
+    public string $name;
+    public float $alcoholPercentage;
+
+    public function __construct(string $color, float $price, string $temperature, string $name, float $alcoholPercentage)
+    {
+        $this->alcoholPercentage = $alcoholPercentage;
+        $this->name = $name;
+
+        parent::__construct($color, $price, $temperature);
+    }
+
+    public function getAlcoholPercentage(float $alcoholPercentage)
+    {
+        return $alcoholPercentage;
+    }
+}
+
+
 /* EXERCISE 3
 Copy the code of exercise 2 to here and delete everything related to cola.
 Make all properties private.
