@@ -22,7 +22,7 @@ class Beverages
 
     public function getInfo()
     {
-        echo "This beverage is {$this->temperature} and {$this->color}. <br>";
+        echo "This beverage is {$this->temperature} and {$this->color}. </br></br>";
     }
 }
 
