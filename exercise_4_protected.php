@@ -25,7 +25,7 @@ class StrongestBeer extends Beverages
 
     public function getName()
     {
-        echo "Name: {$this->name}</br>";
+        echo "Name: {$this->name} test</br>";
     }
 }
 

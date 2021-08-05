@@ -10,7 +10,7 @@ require "exercise_1_classes.php";
 require "exercise_2_extending.php";
 require "exercise_3_private.php";
 require "exercise_4_protected.php";
-//require "exercise_5_public.php";
+require "exercise_5_public.php";
 //require "exercise_6_const.php";
 //require "exercise_7_static.php";
 
@@ -37,3 +37,13 @@ $duvel->getBeerInfo();
 echo "/* EXERCISE 4 */ </br>";
 $duvel->getAlcoholPercentage();
 $duvel->getName();
+echo "</br>";
+
+echo "/* EXERCISE 5 */ </br>";
+$icetea = new ColdBeverages("green", 2, "cold");
+$icetea->setPrice(3.5);
+$icetea->getInfo();
+
+echo "/* EXERCISE  */ </br>";
+
+

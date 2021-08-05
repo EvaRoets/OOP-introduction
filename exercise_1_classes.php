@@ -14,10 +14,9 @@ class Beverages
 
     public function __construct(string $color, float $price, string $temperature = "cold")
     {
-        $this->temperature = $temperature;
-        $this->price = $price;
         $this->color = $color;
-
+        $this->price = $price;
+        $this->temperature = $temperature;
     }
 
     public function getInfo()
@@ -36,7 +35,7 @@ Make a getInfo function which returns "This beverage is <temperature> and <color
 Instantiate an object which represents cola. Make sure that the color is set to black, the price equals 2 euro and the temperature to cold automatically
  print the getInfo on the screen.
 print the temperature on the screen.
-USE TYPEHINTING EVERYWHERE!
+USE TYPE HINTING EVERYWHERE!
 */
 
 
