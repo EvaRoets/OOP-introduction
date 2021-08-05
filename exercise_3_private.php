@@ -20,7 +20,7 @@ class StrongBeer extends Beverages
 
     public function getAlcoholPercentage()
     {
-        echo "Alcohol percentage {$this->alcoholPercentage}%</br>";
+        echo "Alcohol percentage: {$this->alcoholPercentage}%</br>";
     }
 
     public function getName()
@@ -32,7 +32,6 @@ class StrongBeer extends Beverages
     {
         $this->color = $color;
         echo "Color: {$this->color}</br>";
-
     }
 
     private function beerInfo()
