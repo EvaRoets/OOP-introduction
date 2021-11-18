@@ -9,7 +9,7 @@
 ## ✔️ Specifications
 - Learn the difference in use between public, private and protected functions. 
 - Explore getter and setter functions.
--
+
 ### 🌱 Must-haves
 Exercises 1-4
 
