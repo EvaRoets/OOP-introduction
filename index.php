@@ -44,6 +44,7 @@ $icetea = new ColdBeverages("green", 2, "cold");
 $icetea->setPrice(3.5);
 $icetea->getInfo();
 
-echo "/* EXERCISE  */ </br>";
+echo "/* EXERCISE 6 */ </br>";
+$duvel->getConstant();
 
 
